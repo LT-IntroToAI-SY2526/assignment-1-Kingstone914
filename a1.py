@@ -20,7 +20,7 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[I'm a freshmen high school student taking an intro to ai class. I'm starting to learn the basic of python and I'm new to programming. Generate some problems about basics of python]
+[I'm a highschool student taking an intro to ai class. I'm starting to learn the basics of python and I'm completely new to programming. Generate 5-7 practice problems about lists, factorial, every_other, sum_list, mean, and median.]
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
