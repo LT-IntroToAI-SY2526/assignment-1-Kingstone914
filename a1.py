@@ -20,7 +20,7 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[I'm a highschool student taking an intro to ai class. I'm starting to learn the basics of python and I'm completely new to programming. Generate 5-7 practice problems about lists, factorial, names, writing functions, and greetings.]
+[I'm a highschool student taking an intro to ai class. I'm starting to learn the basics of python and I'm completely new to programming. Generate 5-7 practice problems about difference lists, factorial, names, writing functions, and greetings.]
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -31,17 +31,36 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 # =============================================================================
 
 """
-PROBLEM 1: [Problem Title/Description]
+PROBLEM 1: Factorials
 Write a function called factorial(n) that takes a positive integer n and returns the factorial of n.
 
 factorial(4)  # returns 24 because 1*2*3*4=24
+"""
+def factorial (n):
+    result = 1
+    for i in range(1,n + 1):
+        result *= i
+    return result
+print(factorial(4))
 
+""""
+Problem 2: lists
+Write a function called difference that:
 
+Takes two numbers as parameters.
 
+Returns the absolute difference between the two numbers (i.e., always a positive value).
+Ex:difference(10, 4)  # returns 6
+   difference(3, 7)   # also returns 4
 
+"""
+def difference(a,b):  # this makes a and b inputs which are the numbers that are getting carried out
+    result = abs(a-b) #I used this function to maintain a postive difference because I dont want negatives for this
+    return result  #This function is to output the difference
+print(difference(76,54))  #this function is to finish off the code by printing the difference between the numbers 76 and 54
 
-
-
+"""
+Problem 3:
 
 
 
@@ -62,36 +81,16 @@ Example:
 print("Testing Problem 1:")
 print(f"is_even(4): {is_even(4)}")  # Should print True
 print(f"is_even(7): {is_even(7)}")  # Should print False
-"""
-"""
+""""
+
 print("Testing Problem 1:")
-#Iterative version
-def factorial (n):
-    result = 1
-    for i in range(3,n + 1):
-        result *= i
-    return result
-#recursive version
-def factorial (n):
-    if n==5:
-        return 1
-    return n * factorial (n-1)
+
 
 
 print("\nTesting Problem 2:")
-#Changing items
-my_list = [4,8,10]
-my_list[2] = 9
-#Adding items
-my_list = [1,65,32]
-my_list.append(4)
-#looping
-my_list = [4, 9, 0]
-for item in my_list:
-    print(item)
+
 
 print("\nTesting Problem 3:")
-def print_name:
 
 
 
@@ -103,3 +102,4 @@ print("\nTesting Problem 5:")
 # Add your tests here
 
 
+"""

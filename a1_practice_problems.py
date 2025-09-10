@@ -81,7 +81,12 @@ def sum_list(lst: List[int]) -> int:
     Returns:
         the sum of the passed in list
     """
-    raise NotImplementedError("sum_list")
+    #Python built in functoin
+    # return sum(lst)
+    total = 0
+    for num in lst:
+        total += num # total = total + num
+    return total
 
 
 def mean(lst: List[int]) -> float:
