@@ -60,11 +60,24 @@ def difference(a,b):  # this makes a and b inputs which are the numbers that are
 print(difference(76,54))  #this function is to finish off the code by printing the difference between the numbers 76 and 54
 
 """
-Problem 3:
+Problem 3: Writing an function for greeting
+For example, you might want it to say:
+
+Hello, welcome!
 
 
+Or maybe:
 
+Hi, Sarah!
 
+"""
+def greet(name):  # this creates a function which is where the code is going under
+    print("hello, " + name + "!") # this connects all the strings making a string concatention which basically means that it's joining hello, name, and ! together.
+greet("Kingston") # this is to define my name as Kingston. It's like the greet(name) in the function but this time (name) is Kingston
+
+"""
+Problem:4
+"""
 
 
 # =============================================================================
@@ -72,7 +85,7 @@ Problem 3:
 # =============================================================================
 
 
-"""
+"""""
 Test all your solutions with different inputs
 
 Add asserts if you feel comfortable
@@ -81,7 +94,7 @@ Example:
 print("Testing Problem 1:")
 print(f"is_even(4): {is_even(4)}")  # Should print True
 print(f"is_even(7): {is_even(7)}")  # Should print False
-""""
+"""
 
 print("Testing Problem 1:")
 
@@ -102,4 +115,4 @@ print("\nTesting Problem 5:")
 # Add your tests here
 
 
-"""
+""
