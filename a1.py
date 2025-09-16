@@ -131,18 +131,24 @@ print(factorial(6))
 print(factorial(8))
 
 print("\nTesting Problem 2:")
-
+print(difference(10,9))
+print(difference(31,20))
+print(difference(45,12))
 
 print("\nTesting Problem 3:")
-
-
-
+greet("Piero")
+greet("Joe")
+greet("Jonathan")
 
 print("\nTesting Problem 4:")
-# Add your tests here
+print(number(20, 4))
+print(number(1450, 50))
+print(number(144, 12))
 
 print("\nTesting Problem 5:")
-# Add your tests here
+print(make_sentence("Bo", "chess"))
+print(make_sentence("Jonathan", "Fifa"))
+print(make_sentence("Piero", "volleyball"))
 
 
 ""
